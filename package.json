@@ -1,0 +1,43 @@
+{
+  "name": "@thibaudcolas/stylelint-config-cookbook",
+  "version": "0.1.0",
+  "description": "Shareable stylelint config for CSS and SCSS, with a strict baseline",
+  "author": "Thibaud Colas",
+  "license": "MIT",
+  "keywords": [
+    "stylelint",
+    "config",
+    "stylelint-config",
+    "lint",
+    "styleguide"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thibaudcolas/stylelint-config-cookbook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thibaudcolas/stylelint-config-cookbook/issues"
+  },
+  "homepage": "https://thibaudcolas.github.io/stylelint-config-cookbook/",
+  "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
+    "eslint": "^5.4.0",
+    "jest": "^23.5.0",
+    "prettier": "^1.14.2",
+    "stylelint": "^9.5.0"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-declaration-block-no-ignored-properties": "^1.1.0",
+    "stylelint-declaration-strict-value": "^1.0.4",
+    "stylelint-no-unsupported-browser-features": "^3.0.1",
+    "stylelint-prettier": "^0.2.2",
+    "stylelint-scss": "^3.3.0"
+  },
+  "peerDependencies": {},
+  "scripts": {
+    "lint": "eslint . && prettier --list-different '**/*.{js,md,css,scss,yaml,yml,json}'",
+    "test": "jest"
+  }
+}
