@@ -40,7 +40,9 @@
     "stylelint-prettier": "^0.2.2",
     "stylelint-scss": "^3.3.0"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "stylelint": "^9.5.0"
+  },
   "scripts": {
     "lint": "eslint . && prettier --list-different '**/*.{js,md,css,scss,yaml,yml,json}'",
     "format": "prettier --write '**/*.{js,md,css,scss,yaml,yml,json}'",
