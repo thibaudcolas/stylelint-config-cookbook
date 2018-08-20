@@ -28,6 +28,8 @@ module.exports = {
     "scss/at-rule-no-unknown": true,
     "scss/declaration-nested-properties": "never",
     "scss/selector-no-redundant-nesting-selector": true,
+    "scss/percent-placeholder-pattern": "^do-not-use-placeholders$",
+    "scss/at-function-named-arguments": "always",
     "plugin/declaration-block-no-ignored-properties": true,
     "scale-unlimited/declaration-strict-value": [
       ["/color/", "z-index", "font-size"],
