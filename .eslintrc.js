@@ -3,5 +3,6 @@ module.exports = {
   parserOptions: { ecmaVersion: 9 },
   env: {
     node: true,
+    jest: true,
   },
 };
