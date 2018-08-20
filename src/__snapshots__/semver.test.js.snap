@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`semver - should those tests break, consider releasing a new major version of the package custom config 1`] = `
+Object {
+  "extends": Array [
+    "stylelint-config-standard",
+    "stylelint-prettier/recommended",
+  ],
+  "plugins": Array [
+    "stylelint-scss",
+    "stylelint-declaration-block-no-ignored-properties",
+    "stylelint-declaration-strict-value",
+    "stylelint-no-unsupported-browser-features",
+  ],
+  "rules": Object {
+    "at-rule-no-unknown": null,
+    "at-rule-no-vendor-prefix": true,
+    "color-named": "never",
+    "declaration-block-no-shorthand-property-overrides": true,
+    "declaration-no-important": true,
+    "max-nesting-depth": 3,
+    "media-feature-name-no-vendor-prefix": true,
+    "plugin/declaration-block-no-ignored-properties": true,
+    "plugin/no-unsupported-browser-features": Array [
+      true,
+      Object {
+        "ignore": Array [
+          "user-select-none",
+          "css3-cursors",
+          "viewport-units",
+          "outline",
+          "css-appearance",
+        ],
+      },
+    ],
+    "property-no-vendor-prefix": true,
+    "scale-unlimited/declaration-strict-value": Array [
+      Array [
+        "/color/",
+        "z-index",
+        "font-size",
+      ],
+      Object {
+        "ignoreKeywords": Array [
+          "currentColor",
+          "inherit",
+          "transparent",
+        ],
+      },
+    ],
+    "scss/at-rule-no-unknown": true,
+    "scss/declaration-nested-properties": "never",
+    "scss/selector-no-redundant-nesting-selector": true,
+    "selector-max-id": 0,
+    "selector-max-specificity": "0,3,0",
+    "selector-max-type": 1,
+    "selector-no-qualifying-type": true,
+    "selector-no-vendor-prefix": true,
+    "shorthand-property-no-redundant-values": true,
+    "value-no-vendor-prefix": true,
+  },
+}
+`;
+
+exports[`semver - should those tests break, consider releasing a new major version of the package dependencies 1`] = `
+Object {
+  "stylelint-config-prettier": "^4.0.0",
+  "stylelint-config-standard": "^18.2.0",
+  "stylelint-declaration-block-no-ignored-properties": "^1.1.0",
+  "stylelint-declaration-strict-value": "^1.0.4",
+  "stylelint-no-unsupported-browser-features": "^3.0.1",
+  "stylelint-prettier": "^0.2.2",
+  "stylelint-scss": "^3.3.0",
+}
+`;
+
+exports[`semver - should those tests break, consider releasing a new major version of the package peerDependencies 1`] = `Object {}`;
