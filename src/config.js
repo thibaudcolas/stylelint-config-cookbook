@@ -32,7 +32,7 @@ module.exports = {
     "scss/at-function-named-arguments": "always",
     "plugin/declaration-block-no-ignored-properties": true,
     "scale-unlimited/declaration-strict-value": [
-      ["/color/", "z-index", "font-size"],
+      ["/color/", "z-index", "font-size", "font-family"],
       {
         ignoreKeywords: ["currentColor", "inherit", "transparent"],
       },
