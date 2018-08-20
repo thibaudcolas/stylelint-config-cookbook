@@ -2,7 +2,7 @@
 
 set -e
 
-if [ -n "$JS_STAGED" ];
+if [ -n "$JS_STAGED" ] || [ -n "$SNAPSHOT_STAGED" ];
 then
   npm run test
 fi

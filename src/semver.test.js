@@ -1,16 +1,33 @@
+const path = require("path");
+const stylelint = require("stylelint");
+
 const pkg = require("../package.json");
-const config = require("./config");
 
 describe("semver - should those tests break, consider releasing a new major version of the package", () => {
   it("dependencies", () => {
-    expect(pkg.dependencies).toMatchSnapshot();
+    expect(pkg.dependencies).toMatchInlineSnapshot(`
+Object {
+  "stylelint-config-prettier": "^4.0.0",
+  "stylelint-config-standard": "^18.2.0",
+  "stylelint-declaration-block-no-ignored-properties": "^1.1.0",
+  "stylelint-declaration-strict-value": "^1.0.4",
+  "stylelint-no-unsupported-browser-features": "^3.0.1",
+  "stylelint-prettier": "^0.2.2",
+  "stylelint-scss": "^3.3.0",
+}
+`);
   });
 
   it("peerDependencies", () => {
-    expect(pkg.peerDependencies).toMatchSnapshot();
+    expect(pkg.peerDependencies).toMatchInlineSnapshot(`Object {}`);
   });
 
-  it("custom config", () => {
-    expect(config).toMatchSnapshot();
+  it("config contents", () => {
+    const linter = stylelint.createLinter({
+      configFile: path.join(__dirname, "config.js"),
+    });
+    return linter.getConfigForFile().then(result => {
+      expect(result.config.rules).toMatchSnapshot();
+    });
   });
 });
