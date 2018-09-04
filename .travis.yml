@@ -9,6 +9,7 @@ install:
 script:
   - npm run test:ci
   - commitlint-travis
+  - npm pack --loglevel notice
 branches:
   except:
     - gh-pages
