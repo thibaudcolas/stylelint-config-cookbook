@@ -1,6 +1,8 @@
 const path = require("path");
 const stylelint = require("stylelint");
 
+jest.setTimeout(15000);
+
 describe("config", () => {
   it("works", () => {
     return stylelint

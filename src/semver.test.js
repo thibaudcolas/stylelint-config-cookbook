@@ -19,7 +19,11 @@ Object {
   });
 
   it("peerDependencies", () => {
-    expect(pkg.peerDependencies).toMatchInlineSnapshot(`Object {}`);
+    expect(pkg.peerDependencies).toMatchInlineSnapshot(`
+Object {
+  "stylelint": "^9.5.0",
+}
+`);
   });
 
   it("config contents", () => {
