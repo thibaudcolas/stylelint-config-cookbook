@@ -26,6 +26,7 @@
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
+    "danger": "^3.8.6",
     "eslint": "^5.4.0",
     "jest": "^23.5.0",
     "prettier": "^1.14.2",
@@ -48,6 +49,7 @@
     "format": "prettier --write '**/*.{js,md,css,scss,yaml,yml,json}'",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:ci": "npm run lint && npm run test"
+    "test:ci": "npm run lint && npm run test",
+    "danger": "danger ci --verbose"
   }
 }
