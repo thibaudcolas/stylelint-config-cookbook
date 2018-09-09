@@ -2,12 +2,13 @@
 
 // See https://stylelint.io/user-guide/rules/.
 module.exports = {
-  extends: ["stylelint-config-standard", "stylelint-prettier/recommended"],
+  extends: ["stylelint-config-standard", "stylelint-config-prettier"],
   plugins: [
     "stylelint-scss",
     "stylelint-declaration-block-no-ignored-properties",
     "stylelint-declaration-strict-value",
     "stylelint-no-unsupported-browser-features",
+    "stylelint-prettier",
   ],
   rules: {
     "color-named": "never",
@@ -49,5 +50,6 @@ module.exports = {
         ],
       },
     ],
+    "prettier/prettier": true,
   },
 };
