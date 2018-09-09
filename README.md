@@ -10,11 +10,6 @@ npm install --save-exact --save-dev stylelint @thibaudcolas/stylelint-config-coo
 
 Then configure stylelint to use this config. For example, in your package.json, this would be:
 
-```json
-"stylelint": {
-  "extends": "@thibaudcolas/stylelint-config-cookbook"
-},
-```
 
 ## Development
 
