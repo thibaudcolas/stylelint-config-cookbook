@@ -9,9 +9,13 @@ install:
 script:
   - npm run test:ci
   - commitlint-travis
+  - npm run danger
   - npm pack --loglevel notice
 branches:
   except:
     - gh-pages
 notifications:
   email: false
+env:
+  global:
+    secure: WSYDHMY8wuKjz/icfyRj05AWXOZaE7767aHaWKQGmBf+AyB2IW5zFrLSq7RrdY0PrLyYt7Z8qZTMBSWzAkqe+FbEHm+G7HVxsojGC2WkL4RVrjuYNTFFBPTvSFMpGqX8Ik8NZQbRKYevHJ6Wr8hIC3TxIAIRZOXfkAiayqWnHJiO9FHuwZwWmblvLJKIYbMkWiE8yb3D54f6OHMbQjHK89NXQb4Ud9hRo9/kCvPWqtSQCfhz1xi8zPvn1TOeJVSTbXyrWkYsJCb6KF557JlOqd6Sx9WGb+A2eTEFNT5azPu4mHUEIdjyLlOh1i/95pIm1/nDtUdYoOC49+mSGHEofvfWAtdUxF6CdUQZhtxlk+FwBe0NjRaYgk4y2dGoU2y/Lzebu+ASlvk7koUNuljpIDIlpnW6xPPlZTl0ftCeDZmomCTXIh+xnwfEN1zpo6dQtwn5GMW7ZDLmZZrWQT8hWh+n/F/ZbgD+q24Y/oL/+yv9C4KqmJ/fCoRGAUtn0O0E+Kafqzne1tuv05kxyLWG9mcsXT8tLjUns55NDaJuCpNpNt11A8obgtren/rDJGcw6tGilNPqWbKbiqCKw+MZGxbxD/AGve+9arUICL0MlfW2mdZzhdrIns5ypSO3qrO5uoOLQJ0PsaXmQWwFq3v6VQTG8Pll+1CFK15A9IOCPPk=
