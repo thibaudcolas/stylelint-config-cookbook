@@ -2,8 +2,6 @@
 
 ## Usage
 
-Install the config and its dependencies:
-
 ```sh
 npm install --save-exact --save-dev stylelint @thibaudcolas/stylelint-config-cookbook
 ```
