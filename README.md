@@ -4,19 +4,38 @@
 
 ## Usage
 
-Install the config and its dependencies:
+Install stylelint and the config:
 
 ```sh
-npm install --save-exact --save-dev stylelint @thibaudcolas/stylelint-config-cookbook
+npm install --save-dev stylelint @thibaudcolas/stylelint-config-cookbook
 ```
 
-Then configure stylelint to use this config. For example, in your package.json, this would be:
+Then [configure stylelint to use this config](https://stylelint.io/user-guide/configuration/#extends). As a `stylelint.config.js` in the root of your project:
 
 ```json
-"stylelint": {
-  "extends": "@thibaudcolas/stylelint-config-cookbook"
-},
+"use strict";
+
+module.exports = {
+  // https://github.com/thibaudcolas/stylelint-config-cookbook
+  extends: "@thibaudcolas/stylelint-config-cookbook"
+};
 ```
+
+### Related tools
+
+To get the most out of this config, it is assumed that projects have the following tools set up:
+
+- [Prettier](https://prettier.io/) for automated formatting of stylesheets.
+- [Browserslist](https://github.com/browserslist/browserslist) for the definition of target browsers (along with [autoprefixer](https://github.com/postcss/autoprefixer) and [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env)).
+
+## Conventions
+
+The overarching principle behind this config is to make it simpler to maintain stylesheets in large-scale projects. This means:
+
+- Support for large-scale CSS architectures like [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/).
+- Mandatory reusable values (via variables and functions) for properties that impact the overall consistency of the UI, e.g. colors and attributes of fonts.
+- A low maximum specificity, to prevent abuse of the CSS cascade (or altogether discourage usage of styles overrides beyond single components).
+- Blanket ban of CSS/SCSS features that make it harder to maintain stylesheets – id selectors (never), element selectors (max 1), nested properties, etc).
 
 <!-- Generated with: npm run build:docs -->
 
