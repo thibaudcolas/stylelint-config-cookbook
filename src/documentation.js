@@ -1,4 +1,5 @@
 "use strict";
+/* eslint-disable no-console */
 
 /**
  * Prototype automated documentation generator for Stylelint configs.
