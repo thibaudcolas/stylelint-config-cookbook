@@ -24,3 +24,10 @@ if [ -n "$YAML_STAGED" ];
 then
     npx prettier --list-different $YAML_STAGED
 fi
+
+TRAVIS_STAGED=$(grep -e '.travis.yml$' -e '.travis.yaml$' <<< "$STAGED" || true)
+
+if [ -n "$TRAVIS_STAGED" ];
+then
+  travis lint --exit-code $TRAVIS_STAGED
+fi
