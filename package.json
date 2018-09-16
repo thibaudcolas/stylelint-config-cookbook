@@ -26,7 +26,7 @@
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
-    "danger": "^3.8.6",
+    "danger": "^4.0.1",
     "eslint": "^5.4.0",
     "jest": "^23.5.0",
     "prettier": "^1.14.2",
