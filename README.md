@@ -1,4 +1,4 @@
-# @thibaudcolas/stylelint-config-cookbook [![npm](https://img.shields.io/npm/v/stylelint-config-cookbook.svg?style=flat-square)](https://www.npmjs.com/package/@thibaudcolas/stylelint-config-cookbook) [![Build Status](https://travis-ci.com/thibaudcolas/stylelint-config-cookbook.svg?branch=master)](https://travis-ci.com/thibaudcolas/stylelint-config-cookbook)
+# @thibaudcolas/stylelint-config-cookbook [![npm](https://img.shields.io/npm/v/@thibaudcolas/stylelint-config-cookbook.svg)](https://www.npmjs.com/package/@thibaudcolas/stylelint-config-cookbook) [![Build Status](https://travis-ci.com/thibaudcolas/stylelint-config-cookbook.svg?branch=master)](https://travis-ci.com/thibaudcolas/stylelint-config-cookbook)
 
 > Shareable stylelint config for CSS and SCSS, with a strict baseline
 
