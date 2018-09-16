@@ -12,12 +12,10 @@ npm install --save-dev stylelint @thibaudcolas/stylelint-config-cookbook
 
 Then [configure stylelint to use this config](https://stylelint.io/user-guide/configuration/#extends). As a `stylelint.config.js` in the root of your project:
 
-```json
-"use strict";
-
+```js
 module.exports = {
   // https://github.com/thibaudcolas/stylelint-config-cookbook
-  extends: "@thibaudcolas/stylelint-config-cookbook"
+  extends: "@thibaudcolas/stylelint-config-cookbook",
 };
 ```
 
