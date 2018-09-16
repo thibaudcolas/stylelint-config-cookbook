@@ -10,7 +10,9 @@
     "config",
     "stylelint-config",
     "lint",
-    "styleguide"
+    "styleguide",
+    "itcss",
+    "bem"
   ],
   "files": [
     "src/config.js"
@@ -22,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/thibaudcolas/stylelint-config-cookbook/issues"
   },
-  "homepage": "https://thibaudcolas.github.io/stylelint-config-cookbook/",
+  "homepage": "https://github.com/thibaudcolas/stylelint-config-cookbook",
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
