@@ -47,6 +47,7 @@
   "scripts": {
     "lint": "eslint . && prettier --list-different '**/*.{js,md,css,scss,yaml,yml,json}'",
     "format": "prettier --write '**/*.{js,md,css,scss,yaml,yml,json}'",
+    "build:docs": "node src/documentation.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:ci": "npm run lint && npm run test",
