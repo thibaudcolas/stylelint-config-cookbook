@@ -64,7 +64,6 @@ The overarching principle behind this config is to make it simpler to maintain s
 - [`plugin/declaration-block-no-ignored-properties`](https://github.com/kristerkari/stylelint-declaration-block-no-ignored-properties#readme)
 - [`scale-unlimited/declaration-strict-value`](https://github.com/AndyOGo/stylelint-declaration-strict-value#readme): `/color/, z-index, font-size, font-family, ignoreKeywords: currentColor, inherit, transparent`
 - [`plugin/no-unsupported-browser-features`](https://github.com/ismay/stylelint-no-unsupported-browser-features#readme): `true, ignore: user-select-none, css3-cursors, viewport-units, outline, css-appearance`
-- [`prettier/prettier`](https://github.com/BPScott/stylelint-prettier#readme)
 
 ### Rules of `stylelint-config-standard`
 
