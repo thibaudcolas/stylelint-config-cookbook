@@ -31,6 +31,10 @@ module.exports = {
     "scss/percent-placeholder-pattern": "^do-not-use-placeholders$",
     "scss/at-function-named-arguments": "always",
     "scss/at-mixin-named-arguments": "always",
+    "scss/dollar-variable-no-missing-interpolation": true,
+    "scss/at-mixin-argumentless-call-parentheses": "always",
+    "scss/media-feature-value-dollar-variable": true,
+    "scss/no-duplicate-dollar-variables": true,
     "plugin/declaration-block-no-ignored-properties": true,
     "scale-unlimited/declaration-strict-value": [
       ["/color/", "z-index", "font-size", "font-family"],
