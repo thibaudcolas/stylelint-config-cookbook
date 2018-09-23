@@ -60,6 +60,7 @@ The overarching principle behind this config is to make it simpler to maintain s
 - [`scss/selector-no-redundant-nesting-selector`](https://github.com/kristerkari/stylelint-scss#readme)
 - [`scss/percent-placeholder-pattern`](https://github.com/kristerkari/stylelint-scss#readme): `^do-not-use-placeholders$`
 - [`scss/at-function-named-arguments`](https://github.com/kristerkari/stylelint-scss#readme): `always`
+- [`scss/at-mixin-named-arguments`](https://github.com/kristerkari/stylelint-scss#readme): `always`
 - [`plugin/declaration-block-no-ignored-properties`](https://github.com/kristerkari/stylelint-declaration-block-no-ignored-properties#readme)
 - [`scale-unlimited/declaration-strict-value`](https://github.com/AndyOGo/stylelint-declaration-strict-value#readme): `/color/, z-index, font-size, font-family, ignoreKeywords: currentColor, inherit, transparent`
 - [`plugin/no-unsupported-browser-features`](https://github.com/ismay/stylelint-no-unsupported-browser-features#readme): `true, ignore: user-select-none, css3-cursors, viewport-units, outline, css-appearance`
