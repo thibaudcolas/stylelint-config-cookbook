@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), enforced with [semantic-release](https://github.com/semantic-release/semantic-release).
 
+# [2.0.0](https://github.com/thibaudcolas/stylelint-config-cookbook/compare/v1.1.0...v2.0.0) (2018-09-23)
+
+### Features
+
+- **config:** enforce 4 additional SCSS rules ([#15](https://github.com/thibaudcolas/stylelint-config-cookbook/issues/15)) ([a715b31](https://github.com/thibaudcolas/stylelint-config-cookbook/commit/a715b31))
+
+### BREAKING CHANGES
+
+- **config:** enforces 4 additional SCSS rules,
+
+* [`scss/dollar-variable-no-missing-interpolation`](https://github.com/kristerkari/stylelint-scss/tree/master/src/rules/dollar-variable-no-missing-interpolation) – prevents this type of error in stylesheets.
+* [`scss/at-mixin-argumentless-call-parentheses`](https://github.com/kristerkari/stylelint-scss/tree/master/src/rules/at-mixin-argumentless-call-parentheses) – makes @include statements more consistent between argumentless and with-arguments.
+* [`scss/media-feature-value-dollar-variable`](https://github.com/kristerkari/stylelint-scss/tree/master/src/rules/media-feature-value-dollar-variable) – makes it harder to declare @media rules with arbitrary values.
+* [`scss/no-duplicate-dollar-variables`](https://github.com/kristerkari/stylelint-scss/tree/master/src/rules/no-duplicate-dollar-variables) – code smell check.
+
 # [1.1.0](https://github.com/thibaudcolas/stylelint-config-cookbook/compare/v1.0.0...v1.1.0) (2018-09-23)
 
 ### Features
