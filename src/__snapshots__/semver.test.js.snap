@@ -239,6 +239,9 @@ Object {
   "scss/at-function-named-arguments": Array [
     "always",
   ],
+  "scss/at-mixin-argumentless-call-parentheses": Array [
+    "always",
+  ],
   "scss/at-mixin-named-arguments": Array [
     "always",
   ],
@@ -247,6 +250,15 @@ Object {
   ],
   "scss/declaration-nested-properties": Array [
     "never",
+  ],
+  "scss/dollar-variable-no-missing-interpolation": Array [
+    true,
+  ],
+  "scss/media-feature-value-dollar-variable": Array [
+    true,
+  ],
+  "scss/no-duplicate-dollar-variables": Array [
+    true,
   ],
   "scss/percent-placeholder-pattern": Array [
     "^do-not-use-placeholders$",
