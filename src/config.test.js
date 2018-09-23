@@ -13,7 +13,7 @@ describe("config", () => {
         configFile: path.join(__dirname, "config.js"),
       })
       .then(results => {
-        expect(results.results[0].warnings.length).toBe(10);
+        expect(results.results[0].warnings.length).toBe(9);
       });
   });
 });

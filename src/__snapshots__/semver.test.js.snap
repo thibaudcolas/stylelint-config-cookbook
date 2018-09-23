@@ -213,9 +213,6 @@ Object {
       ],
     },
   ],
-  "prettier/prettier": Array [
-    true,
-  ],
   "property-case": null,
   "property-no-unknown": Array [
     true,
