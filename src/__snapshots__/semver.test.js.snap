@@ -242,6 +242,9 @@ Object {
   "scss/at-function-named-arguments": Array [
     "always",
   ],
+  "scss/at-mixin-named-arguments": Array [
+    "always",
+  ],
   "scss/at-rule-no-unknown": Array [
     true,
   ],

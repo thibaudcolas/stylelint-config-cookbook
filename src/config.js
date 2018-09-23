@@ -31,6 +31,7 @@ module.exports = {
     "scss/selector-no-redundant-nesting-selector": true,
     "scss/percent-placeholder-pattern": "^do-not-use-placeholders$",
     "scss/at-function-named-arguments": "always",
+    "scss/at-mixin-named-arguments": "always",
     "plugin/declaration-block-no-ignored-properties": true,
     "scale-unlimited/declaration-strict-value": [
       ["/color/", "z-index", "font-size", "font-family"],
