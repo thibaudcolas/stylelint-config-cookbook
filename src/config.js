@@ -8,7 +8,6 @@ module.exports = {
     "stylelint-declaration-block-no-ignored-properties",
     "stylelint-declaration-strict-value",
     "stylelint-no-unsupported-browser-features",
-    "stylelint-prettier",
   ],
   rules: {
     "color-named": "never",
@@ -51,6 +50,5 @@ module.exports = {
         ],
       },
     ],
-    "prettier/prettier": true,
   },
 };
