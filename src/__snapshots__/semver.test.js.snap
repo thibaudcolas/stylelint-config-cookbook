@@ -255,7 +255,7 @@ Object {
     true,
   ],
   "scss/media-feature-value-dollar-variable": Array [
-    true,
+    "always",
   ],
   "scss/no-duplicate-dollar-variables": Array [
     true,

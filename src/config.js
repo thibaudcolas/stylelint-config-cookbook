@@ -33,7 +33,7 @@ module.exports = {
     "scss/at-mixin-named-arguments": "always",
     "scss/dollar-variable-no-missing-interpolation": true,
     "scss/at-mixin-argumentless-call-parentheses": "always",
-    "scss/media-feature-value-dollar-variable": true,
+    "scss/media-feature-value-dollar-variable": "always",
     "scss/no-duplicate-dollar-variables": true,
     "plugin/declaration-block-no-ignored-properties": true,
     "scale-unlimited/declaration-strict-value": [
