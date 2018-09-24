@@ -63,7 +63,7 @@ The overarching principle behind this config is to make it simpler to maintain s
 - [`scss/at-mixin-named-arguments`](https://github.com/kristerkari/stylelint-scss#readme): `always`
 - [`scss/dollar-variable-no-missing-interpolation`](https://github.com/kristerkari/stylelint-scss#readme)
 - [`scss/at-mixin-argumentless-call-parentheses`](https://github.com/kristerkari/stylelint-scss#readme): `always`
-- [`scss/media-feature-value-dollar-variable`](https://github.com/kristerkari/stylelint-scss#readme)
+- [`scss/media-feature-value-dollar-variable`](https://github.com/kristerkari/stylelint-scss#readme): `always`
 - [`scss/no-duplicate-dollar-variables`](https://github.com/kristerkari/stylelint-scss#readme)
 - [`plugin/declaration-block-no-ignored-properties`](https://github.com/kristerkari/stylelint-declaration-block-no-ignored-properties#readme)
 - [`scale-unlimited/declaration-strict-value`](https://github.com/AndyOGo/stylelint-declaration-strict-value#readme): `/color/, z-index, font-size, font-family, ignoreKeywords: currentColor, inherit, transparent`

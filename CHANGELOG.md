@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), enforced with [semantic-release](https://github.com/semantic-release/semantic-release).
 
+## [2.0.1](https://github.com/thibaudcolas/stylelint-config-cookbook/compare/v2.0.0...v2.0.1) (2018-09-24)
+
+### Bug Fixes
+
+- **config:** fix value for scss/media-feature-value-dollar-variable ([5fe20ef](https://github.com/thibaudcolas/stylelint-config-cookbook/commit/5fe20ef))
+- **config:** upgrade stylelint-scss to fix trailing commas parsing ([c06a70c](https://github.com/thibaudcolas/stylelint-config-cookbook/commit/c06a70c))
+
 # [2.0.0](https://github.com/thibaudcolas/stylelint-config-cookbook/compare/v1.1.0...v2.0.0) (2018-09-23)
 
 ### Features
