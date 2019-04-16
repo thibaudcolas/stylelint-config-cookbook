@@ -34,7 +34,7 @@
     "danger": "^4.0.1",
     "eslint": "^5.4.0",
     "jest": "^23.5.0",
-    "prettier": "^1.14.2",
+    "prettier": "^1.17.0",
     "semantic-release": "^15.9.15",
     "stylelint": "^9.5.0"
   },
@@ -50,7 +50,7 @@
     "stylelint": "^9.5.0"
   },
   "scripts": {
-    "lint": "eslint . && prettier --list-different '**/*.{js,md,css,scss,yaml,yml,json}'",
+    "lint": "eslint . && prettier --check '**/*.{js,md,css,scss,yaml,yml,json}'",
     "format": "prettier --write '**/*.{js,md,css,scss,yaml,yml,json}'",
     "build:docs": "node src/documentation.js",
     "test": "jest",
