@@ -19,6 +19,10 @@ module.exports = {
 };
 ```
 
+### Tips
+
+- Use Stylelint’s [`--report-needless-disables`](https://stylelint.io/user-guide/node-api/#reportneedlessdisables) flag to ensure you do not use more `stylelint-disable` comments than needed.
+
 ### Related tools
 
 To get the most out of this config, it is assumed that projects have the following tools set up:
