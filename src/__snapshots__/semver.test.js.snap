@@ -82,7 +82,6 @@ Object {
       ],
     },
   ],
-  "declaration-block-no-redundant-longhand-properties": null,
   "declaration-block-no-shorthand-property-overrides": Array [
     true,
   ],
@@ -117,6 +116,9 @@ Object {
     true,
   ],
   "font-family-no-missing-generic-family-keyword": Array [
+    true,
+  ],
+  "function-calc-no-invalid": Array [
     true,
   ],
   "function-calc-no-unspaced-operator": Array [
