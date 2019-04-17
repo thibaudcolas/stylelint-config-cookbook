@@ -8,6 +8,7 @@ module.exports = {
     "stylelint-declaration-block-no-ignored-properties",
     "stylelint-declaration-strict-value",
     "stylelint-no-unsupported-browser-features",
+    "stylelint-a11y",
   ],
   rules: {
     "color-named": "never",
@@ -55,5 +56,11 @@ module.exports = {
         ],
       },
     ],
+    "a11y/content-property-no-static-value": true,
+    "a11y/font-size-is-readable": true,
+    "a11y/media-prefers-reduced-motion": true,
+    "a11y/no-obsolete-attribute": true,
+    "a11y/no-obsolete-element": true,
+    "a11y/no-text-align-justify": true,
   },
 };
