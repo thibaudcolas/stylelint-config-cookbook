@@ -7,12 +7,12 @@ describe("semver - should those tests break, consider releasing a new major vers
   it("dependencies", () => {
     expect(pkg.dependencies).toMatchInlineSnapshot(`
 Object {
-  "stylelint-config-prettier": "^4.0.0",
-  "stylelint-config-standard": "^18.2.0",
+  "stylelint-config-prettier": "^5.0.0",
+  "stylelint-config-standard": "^18.3.0",
   "stylelint-declaration-block-no-ignored-properties": "^1.1.0",
-  "stylelint-declaration-strict-value": "^1.0.4",
-  "stylelint-no-unsupported-browser-features": "^3.0.1",
-  "stylelint-scss": "^3.3.1",
+  "stylelint-declaration-strict-value": "^1.1.2",
+  "stylelint-no-unsupported-browser-features": "^3.0.2",
+  "stylelint-scss": "^3.5.4",
 }
 `);
   });
@@ -20,7 +20,7 @@ Object {
   it("peerDependencies", () => {
     expect(pkg.peerDependencies).toMatchInlineSnapshot(`
 Object {
-  "stylelint": "^9.5.0",
+  "stylelint": "^10.0.1",
 }
 `);
   });
