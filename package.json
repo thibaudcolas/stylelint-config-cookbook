@@ -36,7 +36,8 @@
     "jest": "^23.5.0",
     "prettier": "^1.17.0",
     "semantic-release": "^15.9.15",
-    "stylelint": "^10.0.1"
+    "stylelint": "^10.0.1",
+    "stylelint-find-new-rules": "^1.0.1"
   },
   "dependencies": {
     "stylelint-a11y": "^1.1.11",
@@ -55,8 +56,9 @@
     "format": "prettier --write '**/*.{js,md,css,scss,yaml,yml,json}'",
     "build:docs": "node src/documentation.js",
     "test": "jest",
+    "test:rules": "! stylelint-find-new-rules src/config.js --no-u --deprecated --invalid | tee /dev/tty | grep -e [INVALID] -e [DEPRECATED] -c -q",
     "test:watch": "jest --watch",
-    "test:ci": "npm run lint && npm run test",
+    "test:ci": "npm run lint && npm run test && npm run test:rules",
     "danger": "danger ci --verbose",
     "semantic-release": "semantic-release",
     "prepare": "./.githooks/deploy.sh"
