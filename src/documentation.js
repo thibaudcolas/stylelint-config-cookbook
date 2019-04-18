@@ -14,6 +14,11 @@ const stylelint = require("stylelint");
 
 const pkg = require("../package.json");
 const config = require("./config");
+const unusedConfig = require("./unused");
+
+const unusedRules = Object.keys(unusedConfig.rules).filter(
+  name => typeof config.rules[name] === "undefined",
+);
 
 const linter = stylelint.createLinter({
   configFile: path.join(__dirname, "config.js"),
@@ -130,6 +135,8 @@ linter.getConfigForFile().then(result => {
     .filter(name => rules[name] === null)
     .map(name => [formatRuleName(name)]);
 
+  const unused = unusedRules.map(name => [formatRuleName(name)]);
+
   const rulesDocumentation = `
 ## Rules
 
@@ -146,6 +153,14 @@ ${generateList(formatRows(inheritedConventions))}
 <details>
 
 ${generateList(formatRows(disabled))}
+
+</details>
+
+### Unused rules
+
+<details>
+
+${generateList(formatRows(unused))}
 
 </details>
 `;

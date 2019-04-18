@@ -56,7 +56,7 @@
     "format": "prettier --write '**/*.{js,md,css,scss,yaml,yml,json}'",
     "build:docs": "node src/documentation.js",
     "test": "jest",
-    "test:rules": "! stylelint-find-new-rules src/config.js --no-u --deprecated --invalid | tee /dev/tty | grep -e [INVALID] -e [DEPRECATED] -c -q",
+    "test:rules": "stylelint-find-new-rules src/unused.js --unused --deprecated --invalid | tee /dev/tty | grep 'All rules are up-to-date!' -c -q",
     "test:watch": "jest --watch",
     "test:ci": "npm run lint && npm run test && npm run test:rules",
     "danger": "danger ci --verbose",
