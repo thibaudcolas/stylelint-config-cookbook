@@ -13,6 +13,7 @@ Object {
   "stylelint-declaration-block-no-ignored-properties": "^1.1.0",
   "stylelint-declaration-strict-value": "^1.1.2",
   "stylelint-no-unsupported-browser-features": "^3.0.2",
+  "stylelint-order": "^3.0.0",
   "stylelint-scss": "^3.5.4",
 }
 `);
