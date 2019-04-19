@@ -37,7 +37,7 @@
     "prettier": "^1.17.0",
     "semantic-release": "^15.9.15",
     "stylelint": "^10.0.1",
-    "stylelint-find-new-rules": "^1.0.1"
+    "stylelint-find-new-rules": "^1.0.2"
   },
   "dependencies": {
     "stylelint-a11y": "^1.1.11",
@@ -56,7 +56,7 @@
     "format": "prettier --write '**/*.{js,md,css,scss,yaml,yml,json}'",
     "build:docs": "node src/documentation.js",
     "test": "jest",
-    "test:rules": "stylelint-find-new-rules src/unused.js --unused --deprecated --invalid | tee /dev/tty | grep 'All rules are up-to-date!' -c -q",
+    "test:rules": "stylelint-find-new-rules src/unused.js --unused --deprecated --invalid",
     "test:watch": "jest --watch",
     "test:ci": "npm run lint && npm run test && npm run test:rules",
     "danger": "danger ci --verbose",
