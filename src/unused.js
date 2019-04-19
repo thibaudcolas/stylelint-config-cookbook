@@ -73,6 +73,7 @@ const overridenByOtherRule = [
   "at-rule-whitelist",
   "color-no-hex",
   "selector-id-pattern",
+  "order/properties-alphabetical-order",
 ];
 
 const formattingByPrettier = [
