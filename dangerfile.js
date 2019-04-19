@@ -37,12 +37,12 @@ schedule(async () => {
 
     if (added.length) {
       const deps = danger.utils.sentence(added.map(d => linkDep(d)));
-      message(`Adding new dependencies: ${deps}`);
+      message(`Adding new dependencies: ${deps}.`);
     }
 
     if (removed.length) {
       const deps = danger.utils.sentence(removed.map(d => linkDep(d)));
-      message(`:tada:, removing dependencies: ${deps}`);
+      message(`:tada:, removing dependencies: ${deps}.`);
     }
   }
 });
