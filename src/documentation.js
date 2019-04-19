@@ -150,6 +150,8 @@ ${generateList(formatRows(inheritedConventions))}
 
 ### Disabled rules
 
+> Rules that are turned off on purpose.
+
 <details>
 
 ${generateList(formatRows(disabled))}
@@ -157,6 +159,8 @@ ${generateList(formatRows(disabled))}
 </details>
 
 ### Unused rules
+
+> Rules that are not configured.
 
 <details>
 
