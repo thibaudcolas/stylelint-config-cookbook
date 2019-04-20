@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), enforced with [semantic-release](https://github.com/semantic-release/semantic-release).
 
+# [3.0.0](https://github.com/thibaudcolas/stylelint-config-cookbook/compare/v2.0.1...v3.0.0) (2019-04-20)
+
+### Features
+
+- **config:** add a11y-related rules. Fix [#18](https://github.com/thibaudcolas/stylelint-config-cookbook/issues/18) ([0fa9c37](https://github.com/thibaudcolas/stylelint-config-cookbook/commit/0fa9c37))
+- **config:** lint declaration ordering w/ stylelint-order. Fix [#1](https://github.com/thibaudcolas/stylelint-config-cookbook/issues/1) ([2fa4cf7](https://github.com/thibaudcolas/stylelint-config-cookbook/commit/2fa4cf7))
+- **config:** update to latest stylelint & plugins ([f28c9eb](https://github.com/thibaudcolas/stylelint-config-cookbook/commit/f28c9eb))
+
+### BREAKING CHANGES
+
+- **config:** adds 2 new rules related to declarations ordering.
+- **config:** this adds 6 new rules related to accessibility.
+- **config:** enforces 1 new rule, and changes the behavior (bugfixes) of existing rules via dependency updates.
+
 ## [2.0.1](https://github.com/thibaudcolas/stylelint-config-cookbook/compare/v2.0.0...v2.0.1) (2018-09-24)
 
 ### Bug Fixes
