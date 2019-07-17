@@ -61,8 +61,6 @@
     "test:rules": "stylelint-find-new-rules src/unused.js --unused --deprecated --invalid",
     "test:watch": "jest --watch",
     "test:ci": "npm run lint && npm run test && npm run test:rules",
-    "danger": "danger ci --verbose",
-    "semantic-release": "semantic-release",
     "prepare": "./.githooks/deploy.sh"
   }
 }
