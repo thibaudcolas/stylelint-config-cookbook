@@ -54,8 +54,8 @@
     "stylelint": "^10.0.1"
   },
   "scripts": {
-    "lint": "eslint --report-unused-disable-directives . && prettier --check '**/*.{js,md,css,scss,yaml,yml,json}'",
-    "format": "prettier --write '**/*.{js,md,css,scss,yaml,yml,json}'",
+    "lint": "eslint --report-unused-disable-directives . && prettier --check '**/?(.)*.{md,css,scss,js,json,yaml,yml,html}'",
+    "format": "prettier --write '**/?(.)*.{md,css,scss,js,json,yaml,yml,html}'",
     "build:docs": "node src/documentation.js",
     "test": "jest",
     "test:rules": "stylelint-find-new-rules src/unused.js --unused --deprecated --invalid",
