@@ -27,7 +27,3 @@ npm run
 npm run test
 npm run lint
 ```
-
-### Releases
-
-Use `npm run release`, which uses [standard-version](https://github.com/conventional-changelog/standard-version) to generate the CHANGELOG and decide on the version bump based on the commits since the last release.
