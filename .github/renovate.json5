@@ -65,7 +65,7 @@
     {
       packagePatterns: ["^semantic-release", "^@semantic-release"],
       groupName: "semantic-release",
-      automerge: false,
+      automerge: true,
     },
     {
       packageNames: ["stylelint"],
