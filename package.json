@@ -1,6 +1,6 @@
 {
   "name": "@thibaudcolas/stylelint-config-cookbook",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "src/config.js",
   "description": "Shareable stylelint config for CSS and SCSS, with a strict baseline",
   "author": "Thibaud Colas",
