@@ -42,7 +42,7 @@ module.exports = {
     "scale-unlimited/declaration-strict-value": [
       ["/color/", "z-index", "font-size", "font-family"],
       {
-        ignoreKeywords: ["currentColor", "inherit", "transparent"],
+        ignoreKeywords: ["currentColor", "inherit", "transparent", "initial"],
       },
     ],
     "plugin/no-unsupported-browser-features": [

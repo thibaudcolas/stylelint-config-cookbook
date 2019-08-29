@@ -587,6 +587,7 @@ Object {
         "currentColor",
         "inherit",
         "transparent",
+        "initial",
       ],
     },
   ],
