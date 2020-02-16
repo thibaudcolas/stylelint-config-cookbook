@@ -72,6 +72,15 @@ The overarching principle behind this config is to make it simpler to maintain s
 - [`scss/at-mixin-argumentless-call-parentheses`](https://github.com/kristerkari/stylelint-scss#readme): `always`
 - [`scss/media-feature-value-dollar-variable`](https://github.com/kristerkari/stylelint-scss#readme): `always`
 - [`scss/no-duplicate-dollar-variables`](https://github.com/kristerkari/stylelint-scss#readme)
+- [`scss/no-duplicate-mixins`](https://github.com/kristerkari/stylelint-scss#readme)
+- [`scss/map-keys-quotes`](https://github.com/kristerkari/stylelint-scss#readme): `always`
+- [`scss/function-unquote-no-unquoted-strings-inside`](https://github.com/kristerkari/stylelint-scss#readme)
+- [`scss/function-quote-no-quoted-strings-inside`](https://github.com/kristerkari/stylelint-scss#readme)
+- [`scss/dimension-no-non-numeric-values`](https://github.com/kristerkari/stylelint-scss#readme)
+- [`scss/comment-no-loud`](https://github.com/kristerkari/stylelint-scss#readme)
+- [`scss/at-import-partial-extension`](https://github.com/kristerkari/stylelint-scss#readme): `never`
+- [`scss/at-if-no-null`](https://github.com/kristerkari/stylelint-scss#readme)
+- [`scss/at-each-key-value-single-line`](https://github.com/kristerkari/stylelint-scss#readme)
 - [`plugin/declaration-block-no-ignored-properties`](https://github.com/kristerkari/stylelint-declaration-block-no-ignored-properties#readme)
 - [`scale-unlimited/declaration-strict-value`](https://github.com/AndyOGo/stylelint-declaration-strict-value#readme): `/color/, z-index, font-size, font-family, ignoreKeywords: currentColor, inherit, transparent, initial`
 - [`plugin/no-unsupported-browser-features`](https://github.com/ismay/stylelint-no-unsupported-browser-features#readme): `true, ignore: user-select-none, css3-cursors, viewport-units, outline, css-appearance`
@@ -103,13 +112,13 @@ The overarching principle behind this config is to make it simpler to maintain s
 - [`media-feature-parentheses-space-inside`](https://stylelint.io/user-guide/rules/media-feature-parentheses-space-inside/): `never`
 - [`media-feature-range-operator-space-after`](https://stylelint.io/user-guide/rules/media-feature-range-operator-space-after/): `always`
 - [`media-feature-range-operator-space-before`](https://stylelint.io/user-guide/rules/media-feature-range-operator-space-before/): `always`
-- [`no-missing-end-of-source-newline`](https://stylelint.io/user-guide/rules/no-missing-end-of-source-newline/)
 - [`selector-attribute-brackets-space-inside`](https://stylelint.io/user-guide/rules/selector-attribute-brackets-space-inside/): `never`
 - [`selector-attribute-operator-space-after`](https://stylelint.io/user-guide/rules/selector-attribute-operator-space-after/): `never`
 - [`selector-attribute-operator-space-before`](https://stylelint.io/user-guide/rules/selector-attribute-operator-space-before/): `never`
 - [`selector-pseudo-class-parentheses-space-inside`](https://stylelint.io/user-guide/rules/selector-pseudo-class-parentheses-space-inside/): `never`
 - [`selector-pseudo-element-colon-notation`](https://stylelint.io/user-guide/rules/selector-pseudo-element-colon-notation/): `double`
 - [`selector-type-case`](https://stylelint.io/user-guide/rules/selector-type-case/): `lower`
+- [`value-keyword-case`](https://stylelint.io/user-guide/rules/value-keyword-case/): `lower`
 - [`block-no-empty`](https://stylelint.io/user-guide/rules/block-no-empty/)
 - [`color-no-invalid-hex`](https://stylelint.io/user-guide/rules/color-no-invalid-hex/)
 - [`comment-no-empty`](https://stylelint.io/user-guide/rules/comment-no-empty/)
@@ -172,6 +181,7 @@ The overarching principle behind this config is to make it simpler to maintain s
 - [`media-query-list-comma-space-after`](https://stylelint.io/user-guide/rules/media-query-list-comma-space-after/)
 - [`media-query-list-comma-space-before`](https://stylelint.io/user-guide/rules/media-query-list-comma-space-before/)
 - [`no-eol-whitespace`](https://stylelint.io/user-guide/rules/no-eol-whitespace/)
+- [`no-missing-end-of-source-newline`](https://stylelint.io/user-guide/rules/no-missing-end-of-source-newline/)
 - [`number-leading-zero`](https://stylelint.io/user-guide/rules/number-leading-zero/)
 - [`number-no-trailing-zeros`](https://stylelint.io/user-guide/rules/number-no-trailing-zeros/)
 - [`property-case`](https://stylelint.io/user-guide/rules/property-case/)
@@ -190,6 +200,7 @@ The overarching principle behind this config is to make it simpler to maintain s
 - [`value-list-comma-space-before`](https://stylelint.io/user-guide/rules/value-list-comma-space-before/)
 - [`value-list-max-empty-lines`](https://stylelint.io/user-guide/rules/value-list-max-empty-lines/)
 - [`no-extra-semicolons`](https://stylelint.io/user-guide/rules/no-extra-semicolons/)
+- [`linebreaks`](https://stylelint.io/user-guide/rules/linebreaks/)
 - [`max-line-length`](https://stylelint.io/user-guide/rules/max-line-length/)
 - [`function-comma-newline-before`](https://stylelint.io/user-guide/rules/function-comma-newline-before/)
 - [`value-list-comma-newline-before`](https://stylelint.io/user-guide/rules/value-list-comma-newline-before/)
@@ -200,6 +211,8 @@ The overarching principle behind this config is to make it simpler to maintain s
 - [`selector-list-comma-space-after`](https://stylelint.io/user-guide/rules/selector-list-comma-space-after/)
 - [`media-query-list-comma-newline-before`](https://stylelint.io/user-guide/rules/media-query-list-comma-newline-before/)
 - [`at-rule-name-newline-after`](https://stylelint.io/user-guide/rules/at-rule-name-newline-after/)
+- [`no-empty-first-line`](https://stylelint.io/user-guide/rules/no-empty-first-line/)
+- [`unicode-bom`](https://stylelint.io/user-guide/rules/unicode-bom/)
 - [`string-quotes`](https://stylelint.io/user-guide/rules/string-quotes/)
 
 </details>
@@ -270,6 +283,9 @@ The overarching principle behind this config is to make it simpler to maintain s
 - [`scss/at-import-partial-extension-whitelist`](https://github.com/kristerkari/stylelint-scss#readme)
 - [`scss/dollar-variable-default`](https://github.com/kristerkari/stylelint-scss#readme)
 - [`scss/no-dollar-variables`](https://github.com/kristerkari/stylelint-scss#readme)
+- [`scss/selector-no-union-class-name`](https://github.com/kristerkari/stylelint-scss#readme)
+- [`scss/function-color-relative`](https://github.com/kristerkari/stylelint-scss#readme)
+- [`scss/at-rule-conditional-no-parentheses`](https://github.com/kristerkari/stylelint-scss#readme)
 - [`at-rule-blacklist`](https://stylelint.io/user-guide/rules/at-rule-blacklist/)
 - [`at-rule-property-requirelist`](https://stylelint.io/user-guide/rules/at-rule-property-requirelist/)
 - [`at-rule-whitelist`](https://stylelint.io/user-guide/rules/at-rule-whitelist/)
