@@ -65,6 +65,9 @@ const tooOpinionated = [
   "scss/at-import-partial-extension-whitelist",
   "scss/dollar-variable-default",
   "scss/no-dollar-variables",
+  "scss/selector-no-union-class-name",
+  "scss/function-color-relative",
+  "scss/at-rule-conditional-no-parentheses",
 ];
 
 const overridenByOtherRule = [
