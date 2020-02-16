@@ -3,7 +3,17 @@
   // https://renovatebot.com/docs/configuration-options/#commitbodytable
   commitBodyTable: true,
   // https://renovatebot.com/docs/configuration-options/#ignoredeps
-  ignoreDeps: [],
+  ignoreDeps: [
+    "stylelint",
+    "stylelint-a11y",
+    "stylelint-config-prettier",
+    "stylelint-config-standard",
+    "stylelint-declaration-block-no-ignored-properties",
+    "stylelint-declaration-strict-value",
+    "stylelint-no-unsupported-browser-features",
+    "stylelint-order",
+    "stylelint-scss",
+  ],
   // https://renovatebot.com/docs/configuration-options/#labels
   labels: ["enhancement"],
   // https://renovatebot.com/docs/configuration-options/#prcreation
@@ -69,25 +79,6 @@
       packagePatterns: ["^semantic-release", "^@semantic-release"],
       groupName: "semantic-release",
       automerge: true,
-    },
-    {
-      packageNames: ["stylelint"],
-      groupName: "stylelint",
-      automerge: false,
-    },
-    {
-      packageNames: [
-        "stylelint-a11y",
-        "stylelint-config-prettier",
-        "stylelint-config-standard",
-        "stylelint-declaration-block-no-ignored-properties",
-        "stylelint-declaration-strict-value",
-        "stylelint-no-unsupported-browser-features",
-        "stylelint-order",
-        "stylelint-scss",
-      ],
-      groupName: "stylelint extensions",
-      automerge: false,
     },
   ],
 }

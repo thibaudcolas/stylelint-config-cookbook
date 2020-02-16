@@ -5,18 +5,18 @@ const pkg = require("../package.json");
 
 describe("semver - should those tests break, consider releasing a new major version of the package", () => {
   it("dependencies", () => {
-    expect(pkg.dependencies).toMatchInlineSnapshot(`
-Object {
-  "stylelint-a11y": "^1.1.11",
-  "stylelint-config-prettier": "^5.1.0",
-  "stylelint-config-standard": "^18.3.0",
-  "stylelint-declaration-block-no-ignored-properties": "^2.0.0",
-  "stylelint-declaration-strict-value": "^1.1.2",
-  "stylelint-no-unsupported-browser-features": "^3.0.2",
-  "stylelint-order": "^3.0.0",
-  "stylelint-scss": "^3.6.0",
-}
-`);
+    expect(Object.keys(pkg.dependencies)).toMatchInlineSnapshot(`
+      Array [
+        "stylelint-a11y",
+        "stylelint-config-prettier",
+        "stylelint-config-standard",
+        "stylelint-declaration-block-no-ignored-properties",
+        "stylelint-declaration-strict-value",
+        "stylelint-no-unsupported-browser-features",
+        "stylelint-order",
+        "stylelint-scss",
+      ]
+    `);
   });
 
   it("peerDependencies", () => {
