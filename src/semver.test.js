@@ -22,7 +22,7 @@ describe("semver - should those tests break, consider releasing a new major vers
   it("peerDependencies", () => {
     expect(pkg.peerDependencies).toMatchInlineSnapshot(`
 Object {
-  "stylelint": "^10.0.1",
+  "stylelint": "^12.0.1",
 }
 `);
   });
