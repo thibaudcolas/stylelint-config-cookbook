@@ -165,6 +165,7 @@ Object {
   "length-zero-no-unit": Array [
     true,
   ],
+  "linebreaks": null,
   "max-empty-lines": null,
   "max-line-length": null,
   "max-nesting-depth": Array [
@@ -205,6 +206,7 @@ Object {
   "no-duplicate-selectors": Array [
     true,
   ],
+  "no-empty-first-line": null,
   "no-empty-source": Array [
     true,
   ],
@@ -213,9 +215,7 @@ Object {
   "no-invalid-double-slash-comments": Array [
     true,
   ],
-  "no-missing-end-of-source-newline": Array [
-    true,
-  ],
+  "no-missing-end-of-source-newline": null,
   "number-leading-zero": null,
   "number-no-trailing-zeros": null,
   "order/order": Array [
@@ -591,8 +591,17 @@ Object {
       ],
     },
   ],
+  "scss/at-each-key-value-single-line": Array [
+    true,
+  ],
   "scss/at-function-named-arguments": Array [
     "always",
+  ],
+  "scss/at-if-no-null": Array [
+    true,
+  ],
+  "scss/at-import-partial-extension": Array [
+    "never",
   ],
   "scss/at-mixin-argumentless-call-parentheses": Array [
     "always",
@@ -603,16 +612,34 @@ Object {
   "scss/at-rule-no-unknown": Array [
     true,
   ],
+  "scss/comment-no-loud": Array [
+    true,
+  ],
   "scss/declaration-nested-properties": Array [
     "never",
   ],
+  "scss/dimension-no-non-numeric-values": Array [
+    true,
+  ],
   "scss/dollar-variable-no-missing-interpolation": Array [
     true,
+  ],
+  "scss/function-quote-no-quoted-strings-inside": Array [
+    true,
+  ],
+  "scss/function-unquote-no-unquoted-strings-inside": Array [
+    true,
+  ],
+  "scss/map-keys-quotes": Array [
+    "always",
   ],
   "scss/media-feature-value-dollar-variable": Array [
     "always",
   ],
   "scss/no-duplicate-dollar-variables": Array [
+    true,
+  ],
+  "scss/no-duplicate-mixins": Array [
     true,
   ],
   "scss/percent-placeholder-pattern": Array [
@@ -683,9 +710,13 @@ Object {
     true,
   ],
   "string-quotes": null,
+  "unicode-bom": null,
   "unit-case": null,
   "unit-no-unknown": Array [
     true,
+  ],
+  "value-keyword-case": Array [
+    "lower",
   ],
   "value-list-comma-newline-after": null,
   "value-list-comma-newline-before": null,
