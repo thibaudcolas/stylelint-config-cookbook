@@ -36,7 +36,7 @@
     "eslint": "6.8.0",
     "jest": "25.5.4",
     "prettier": "2.0.5",
-    "semantic-release": "17.0.4",
+    "semantic-release": "17.0.7",
     "stylelint": "12.0.1",
     "stylelint-find-new-rules": "1.2.0"
   },
