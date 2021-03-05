@@ -1,6 +1,6 @@
 # @thibaudcolas/stylelint-config-cookbook [<img src="https://raw.githubusercontent.com/thibaudcolas/stylelint-config-cookbook/main/.github/stylelint-logo.svg?sanitize=true" width="90" height="90" align="right">](https://stylelint.io)
 
-[![npm](https://img.shields.io/npm/v/@thibaudcolas/stylelint-config-cookbook.svg)](https://www.npmjs.com/package/@thibaudcolas/stylelint-config-cookbook) [![Build Status](https://travis-ci.com/thibaudcolas/stylelint-config-cookbook.svg?branch=main)](https://travis-ci.com/thibaudcolas/stylelint-config-cookbook)
+[![npm](https://img.shields.io/npm/v/@thibaudcolas/stylelint-config-cookbook.svg)](https://www.npmjs.com/package/@thibaudcolas/stylelint-config-cookbook) [![Build status](https://github.com/thibaudcolas/stylelint-config-cookbook/workflows/CI/badge.svg)](https://github.com/thibaudcolas/stylelint-config-cookbook/actions)
 
 > Shareable stylelint config for CSS and SCSS, with a strict baseline
 
