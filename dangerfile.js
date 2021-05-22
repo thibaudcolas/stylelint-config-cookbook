@@ -18,9 +18,8 @@ if (!isLocal) {
 }
 
 const hasPackageChanges = danger.git.modified_files.includes("package.json");
-const hasLockfileChanges = danger.git.modified_files.includes(
-  "package-lock.json",
-);
+const hasLockfileChanges =
+  danger.git.modified_files.includes("package-lock.json");
 
 if (hasPackageChanges && !hasLockfileChanges) {
   warn(
