@@ -32,7 +32,7 @@
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "danger": "10.7.1",
-    "eslint": "8.5.0",
+    "eslint": "8.6.0",
     "jest": "27.4.5",
     "prettier": "2.5.1",
     "semantic-release": "18.0.1",
